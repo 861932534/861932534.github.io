@@ -7,14 +7,22 @@ queue: 队列知识点：csdn
 </p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/11/16/stl%E5%AE%B9%E5%99%A8/">Read more</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/11/11/%E8%B4%AA%E5%BF%83%E9%97%AE%E9%A2%981/">贪心问题1</a></h2><time class="has-text-grey" datetime="2023-11-11T09:07:12.000Z">2023-11-11</time><p class="is-flex-grow-2 mt-2">23-11-15一、删除问题二、陶陶摘苹果（升级版）—-贪心问题方法1（我的解法）：
 思路：使用pair来存储高度和体力值，用sort两次排序。第一次按高度从小到大排序（排序范围：1-n），第二次在第一次的基础上按体力值从小到大排序（排序范围1-cnt&amp;#x2F;&amp;#x2F;cnt是小于等于淘淘能够够到的高度的苹果的数量）。然后用循环扫一遍就可以。
 代码：
-123456789101112131415161718192021222324252627282930#include&amp;lt;bits/stdc++.h&amp;gt;using namespace std;const int N=1e4;typedef pair&amp;lt;int,int&amp;gt; PII;PII x[N];int n,s,a,b;bool cmp(..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/11/11/%E8%B4%AA%E5%BF%83%E9%97%AE%E9%A2%981/">Read more</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/10/15/hello-world/">Hello World</a></h2><time class="has-text-grey" datetime="2023-10-15T02:47:28.650Z">2023-10-15</time><p class="is-flex-grow-2 mt-2">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post1$ hexo new &amp;quot;My New Post&amp;quot;
+#include&amp;lt;bits/stdc++.h&amp;gt;
+using namespace std;
+const int N=1e4;
+typedef pair&amp;lt;int,int&amp;gt; PII;
+PII x[N];
+int n,s,a,b;
+bool cmp(PII a,PII b)&amp;#123;
+    return a.second&amp;lt;b.s..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/11/11/%E8%B4%AA%E5%BF%83%E9%97%AE%E9%A2%981/">Read more</a></section></article><article class="post-item-card"><section class="content post-card-content p-4 pb-5"><h2 class="mt-4 mb-0 is-family-serif"><a href="/2023/10/15/hello-world/">Hello World</a></h2><time class="has-text-grey" datetime="2023-10-15T02:47:28.650Z">2023-10-15</time><p class="is-flex-grow-2 mt-2">Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &amp;quot;My New Post&amp;quot;
 
 More info: Writing
-Run server1$ hexo server
+Run server$ hexo server
 
 More info: Server
-Generate static files1$ hexo genera..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/10/15/hello-world/">Read more</a></section></article></section><aside class="column is-hidden-mobile is-4-tablet is-3-widescreen"><style>.search-widget .search-input {
+Generate static files$ hexo generate
+..</p><a class="button is-default mt-2 has-text-weight-semibold" href="/2023/10/15/hello-world/">Read more</a></section></article></section><aside class="column is-hidden-mobile is-4-tablet is-3-widescreen"><style>.search-widget .search-input {
     border: none;
     outline: none;
     background: transparent;
