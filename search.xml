@@ -4,11 +4,24 @@
   
     
     <entry>
-      <title>English-spaking</title>
-      <link href="/2023/11/18/English-spaking/"/>
-      <url>/2023/11/18/English-spaking/</url>
+      <title>前缀和、差分</title>
+      <link href="/2023/11/19/%E5%89%8D%E7%BC%80%E5%92%8C%E3%80%81%E5%B7%AE%E5%88%86/"/>
+      <url>/2023/11/19/%E5%89%8D%E7%BC%80%E5%92%8C%E3%80%81%E5%B7%AE%E5%88%86/</url>
       
-        <content type="html"><![CDATA[<h1 id="英语口语"><a href="#英语口语" class="headerlink" title="英语口语"></a>英语口语</h1><h4 id="步骤（1-0）："><a href="#步骤（1-0）：" class="headerlink" title="步骤（1.0）："></a>步骤（1.0）：</h4><p>1、找出一段视频作为学习内容</p><p>2、查找出这段视频的生词并熟记</p><p>3、找出这段视频中听不懂的句子并背诵</p><p>4、跟着这段视频模仿，他说一句，我读一句</p><p>5、遮掉字幕，把自己当作配音演员，一句一句配音</p><p>6、对照配音视频和原视频进行分析，反馈</p><h5 id="一：白莲花度假村"><a href="#一：白莲花度假村" class="headerlink" title="一：白莲花度假村"></a>一：白莲花度假村</h5><p>1：第一季第一集（00：00-10：00）</p><p>单词：</p><p>human remains： 人体残骸closet：壁橱，储藏室，隐藏的，把..关在房间</p><p>coconut：椰子   snorter：强风，单套绳</p><p>castaway：(沉船后)游泳逃生到孤岛等荒僻处的人</p><p>edge:边沿，优势，慢慢移动 heiress：女继承人，嗣女</p><p>resort：求助，饭店，度假胜地，求助property：财产，庄园</p><p>disclosure：披露，暴露的事实generic：普通的，一般的，无商标的</p><p>ethos:风气，思想道德pleasant：友好的，令人愉快的，和善的</p><p>tropical：热带的kabuki：歌舞伎</p><p>vagueness：含糊不清，茫然dollop：一团，一块，少许</p><p>mayonnaise：蛋黄酱tit:奶头，乳头</p><p>tray：托盘boob：乳房，傻瓜</p><p>stain：污渍，染色剂，给..着色，玷污suite：一套，一套房间</p><p>cart:手推车，运货马车，强行带走syllable：音节</p><p>masculine：阳性，男子汉气概的massage：按摩，按摩</p><p>escort:护卫队，护送 trainee:练习生，实习生</p><p>herniated disc：椎间盘突出lobster：龙虾</p><p>bake：烤，烘烤的成品，烤</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="前缀和"><a href="#前缀和" class="headerlink" title="前缀和"></a>前缀和</h1><h5 id="一维前缀和："><a href="#一维前缀和：" class="headerlink" title="一维前缀和："></a>一维前缀和：</h5><p>知识点： <a href="https://blog.csdn.net/weixin_45629285/article/details/111146240?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170036394016800226565211%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170036394016800226565211&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-111146240-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=%E5%89%8D%E7%BC%80%E5%92%8C&spm=1018.2226.3001.4187">csdn</a>  </p><p>作用：1、求区间和（通过预处理的方式快速得到一个区间的数字和）（模板题）：<a href="https://www.luogu.com.cn/problem/P8218">求区间和</a>   </p><h6 id="Subsequences-Summing-to-Sevens-S（洛谷）"><a href="#Subsequences-Summing-to-Sevens-S（洛谷）" class="headerlink" title="Subsequences Summing to Sevens S（洛谷）"></a>Subsequences Summing to Sevens S（<a href="https://www.luogu.com.cn/problem/P3131">洛谷</a>）</h6><p>方法一：暴力求解</p><pre><code>#include&lt;bits/stdc++.h&gt;using namespace std;const int N=5e4+10;int a[N];int sum[N];int n;int main()&#123;    cin&gt;&gt;n;    for(int i=1;i&lt;=n;i++)&#123;        cin&gt;&gt;a[i];        sum[i]=sum[i-1]+a[i];    &#125;    int ans=0,m=n;    while(m--)&#123;        for(int i=1;i&lt;=n-m;i++)&#123;            if((sum[i+m]-sum[i-1])%7==0)&#123;                ans=m;                cout&lt;&lt;ans+1&lt;&lt;endl;                return 0;            &#125;        &#125;    &#125;    cout&lt;&lt;0&lt;&lt;endl;    return 0;&#125;//部分数据TLE，时间复杂度为（N*N）</code></pre><p>相关题型：</p><p>错题：<a href="http://172.17.4.116/problem/3149">信号灯</a>  </p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>English-speaking</title>
+      <link href="/2023/11/18/English-speaking/"/>
+      <url>/2023/11/18/English-speaking/</url>
+      
+        <content type="html"><![CDATA[<h1 id="英语口语"><a href="#英语口语" class="headerlink" title="英语口语"></a>英语口语</h1><h4 id="步骤（1-0）："><a href="#步骤（1-0）：" class="headerlink" title="步骤（1.0）："></a>步骤（1.0）：</h4><p>1、找出一段视频作为学习内容</p><p>2、查找出这段视频的生词并熟记</p><p>3、找出这段视频中听不懂的句子并背诵</p><p>4、跟着这段视频模仿，他说一句，我读一句</p><p>5、遮掉字幕，把自己当作配音演员，一句一句配音</p><p>6、对照配音视频和原视频进行分析，反馈</p><h5 id="一：白莲花度假村"><a href="#一：白莲花度假村" class="headerlink" title="一：白莲花度假村"></a>一：白莲花度假村</h5><p>1：第一季第一集（00：00-10：00）</p><p>单词：</p><p>human remains： 人体残骸closet：壁橱，储藏室，隐藏的，把..关在房间</p><p>coconut：椰子   snorter：强风，单套绳</p><p>castaway：(沉船后)游泳逃生到孤岛等荒僻处的人</p><p>edge:边沿，优势，慢慢移动 heiress：女继承人，嗣女</p><p>resort：求助，饭店，度假胜地，求助property：财产，庄园</p><p>disclosure：披露，暴露的事实generic：普通的，一般的，无商标的</p><p>ethos:风气，思想道德pleasant：友好的，令人愉快的，和善的</p><p>tropical：热带的kabuki：歌舞伎</p><p>vagueness：含糊不清，茫然dollop：一团，一块，少许</p><p>mayonnaise：蛋黄酱tit:奶头，乳头</p><p>tray：托盘boob：乳房，傻瓜</p><p>stain：污渍，染色剂，给..着色，玷污suite：一套，一套房间</p><p>cart:手推车，运货马车，强行带走syllable：音节</p><p>masculine：阳性，男子汉气概的massage：按摩，按摩</p><p>escort:护卫队，护送 trainee:练习生，实习生</p><p>herniated disc：椎间盘突出lobster：龙虾</p><p>bake：烤，烘烤的成品，烤</p><p>句子：</p><p>1、Looks like you got a dollop of mayonnaise on your top ,Lani</p><p>2、Just hold the tray up high and cover the stain on your boob</p>]]></content>
       
       
       
