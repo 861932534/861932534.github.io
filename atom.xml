@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-11-20T13:57:56.262Z</updated>
+  <updated>2023-11-21T13:18:00.240Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>竞赛常用函数</title>
+    <link href="http://example.com/2023/11/21/%E7%AB%9E%E8%B5%9B%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/"/>
+    <id>http://example.com/2023/11/21/%E7%AB%9E%E8%B5%9B%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/</id>
+    <published>2023-11-21T13:16:27.000Z</published>
+    <updated>2023-11-21T13:18:00.240Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h1><h3 id="排序"><a href="#排序" class="headerlink" title="排序"></a>排序</h3><p>1、sort函数</p><p>注意点：默认升序排序，如果需要降序，需要加greater<int>()或者</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;函数&quot;&gt;&lt;a href=&quot;#函数&quot; class=&quot;headerlink&quot; title=&quot;函数&quot;&gt;&lt;/a&gt;函数&lt;/h1&gt;&lt;h3 id=&quot;排序&quot;&gt;&lt;a href=&quot;#排序&quot; class=&quot;headerlink&quot; title=&quot;排序&quot;&gt;&lt;/a&gt;排序&lt;/h3&gt;&lt;p&gt;1、s</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>健身日常</title>
@@ -61,14 +81,14 @@
     <link href="http://example.com/2023/11/18/English-speaking/"/>
     <id>http://example.com/2023/11/18/English-speaking/</id>
     <published>2023-11-18T13:38:36.000Z</published>
-    <updated>2023-11-20T02:50:22.562Z</updated>
+    <updated>2023-11-22T09:55:34.643Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="英语口语"><a href="#英语口语" class="headerlink" title="英语口语"></a>英语口语</h1><h4 id="步骤（1-0）："><a href="#步骤（1-0）：" class="headerlink" title="步骤（1.0）："></a>步骤（1.0）：</h4><p>1、找出一段视频作为学习内容</p><p>2、查找出这段视频的生词并熟记</p><p>3、找出这段视频中听不懂的句子并背诵</p><p>4、跟着这段视频模仿，他说一句，我读一句</p><p>5、遮掉字幕，把自己当作配音演员，一句一句配音</p><p>6、对照配音视频和原视频进行分析，反馈</p><h5 id="一：白莲花度假村"><a href="#一：白莲花度假村" class="headerlink" title="一：白莲花度假村"></a>一：白莲花度假村</h5><p>1：第一季第一集（00：00-10：00）</p><p>单词：</p><p>human remains： 人体残骸closet：壁橱，储藏室，隐藏的，把..关在房间</p><p>coconut：椰子   snorter：强风，单套绳</p><p>castaway：(沉船后)游泳逃生到孤岛等荒僻处的人</p><p>edge:边沿，优势，慢慢移动 heiress：女继承人，嗣女</p><p>resort：求助，饭店，度假胜地，求助property：财产，庄园</p><p>disclosure：披露，暴露的事实generic：普通的，一般的，无商标的</p><p>ethos:风气，思想道德pleasant：友好的，令人愉快的，和善的</p><p>tropical：热带的kabuki：歌舞伎</p><p>vagueness：含糊不清，茫然dollop：一团，一块，少许</p><p>mayonnaise：蛋黄酱tit:奶头，乳头</p><p>tray：托盘boob：乳房，傻瓜</p><p>stain：污渍，染色剂，给..着色，玷污suite：一套，一套房间</p><p>cart:手推车，运货马车，强行带走syllable：音节</p><p>masculine：阳性，男子汉气概的massage：按摩，按摩</p><p>escort:护卫队，护送 trainee:练习生，实习生</p><p>herniated disc：椎间盘突出lobster：龙虾</p><p>bake：烤，烘烤的成品，烤</p><p>句子：</p><p>1、Looks like you got a dollop of mayonnaise on your top ,Lani</p><p>2、Just hold the tray up high and cover the stain on your boob</p>]]></content>
+    <content type="html"><![CDATA[<h1 id="英语口语"><a href="#英语口语" class="headerlink" title="英语口语"></a>英语口语</h1><h4 id="步骤（1-1）："><a href="#步骤（1-1）：" class="headerlink" title="步骤（1.1）："></a>步骤（1.1）：</h4><p>1、找出一段视频作为学习内容</p><p>2、查找出这段视频的生词并熟记</p><p>3、找出这段视频中听不懂的句子并背诵</p><p>4、找出视频中有连读现象的句子</p><p>5、跟着这段视频模仿，他说一句，我读一句</p><p>6、遮掉字幕，把自己当作配音演员，一句一句配音</p><p>7、对照配音视频和原视频进行分析，反馈</p><h4 id="常见连读："><a href="#常见连读：" class="headerlink" title="常见连读："></a>常见连读：</h4><p>规则：</p><h5 id="一：白莲花度假村"><a href="#一：白莲花度假村" class="headerlink" title="一：白莲花度假村"></a>一：白莲花度假村</h5><p>1：第一季第一集（00：00-10：00）</p><p>单词：</p><p>human remains： 人体残骸closet：壁橱，储藏室，隐藏的，把..关在房间</p><p>coconut：椰子   snorter：强风，单套绳</p><p>castaway：(沉船后)游泳逃生到孤岛等荒僻处的人</p><p>edge:边沿，优势，慢慢移动 heiress：女继承人，嗣女</p><p>resort：求助，饭店，度假胜地，求助property：财产，庄园</p><p>disclosure：披露，暴露的事实generic：普通的，一般的，无商标的</p><p>ethos:风气，思想道德pleasant：友好的，令人愉快的，和善的</p><p>tropical：热带的kabuki：歌舞伎</p><p>vagueness：含糊不清，茫然dollop：一团，一块，少许</p><p>mayonnaise：蛋黄酱tit:奶头，乳头</p><p>tray：托盘boob：乳房，傻瓜</p><p>stain：污渍，染色剂，给..着色，玷污suite：一套，一套房间</p><p>cart:手推车，运货马车，强行带走syllable：音节</p><p>masculine：阳性，男子汉气概的massage：按摩，按摩</p><p>escort:护卫队，护送 trainee:练习生，实习生</p><p>herniated disc：椎间盘突出lobster：龙虾</p><p>bake：烤，烘烤的成品，烤</p><p>yeah:同yes，是的，对</p><p>yum：味道好或者气味好</p><p>句子：</p><p>1、Looks like you got a dollop of mayonnaise on your top ,Lani？</p><p>2、Just hold the tray up high and cover the stain on your boob</p><p>连读：<br>they’re、other than that、</p><p>i ‘d like to be a castaway with you: like也没发全音，with后音节没发音<br>i would linger a while and just gaze into your lovely eyes so blue  : into中的in没有发音</p><p>so they put up with  her: put up 连读，with her 省音</p>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;英语口语&quot;&gt;&lt;a href=&quot;#英语口语&quot; class=&quot;headerlink&quot; title=&quot;英语口语&quot;&gt;&lt;/a&gt;英语口语&lt;/h1&gt;&lt;h4 id=&quot;步骤（1-0）：&quot;&gt;&lt;a href=&quot;#步骤（1-0）：&quot; class=&quot;headerlink&quot; title=&quot;步</summary>
+    <summary type="html">&lt;h1 id=&quot;英语口语&quot;&gt;&lt;a href=&quot;#英语口语&quot; class=&quot;headerlink&quot; title=&quot;英语口语&quot;&gt;&lt;/a&gt;英语口语&lt;/h1&gt;&lt;h4 id=&quot;步骤（1-1）：&quot;&gt;&lt;a href=&quot;#步骤（1-1）：&quot; class=&quot;headerlink&quot; title=&quot;步</summary>
       
     
     
@@ -101,9 +121,9 @@
     <link href="http://example.com/2023/11/16/stl%E5%AE%B9%E5%99%A8/"/>
     <id>http://example.com/2023/11/16/stl%E5%AE%B9%E5%99%A8/</id>
     <published>2023-11-16T09:28:23.000Z</published>
-    <updated>2023-11-18T03:52:33.403Z</updated>
+    <updated>2023-11-21T14:08:39.721Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="stl容器"><a href="#stl容器" class="headerlink" title="stl容器"></a>stl容器</h1><h2 id="map：关联容器"><a href="#map：关联容器" class="headerlink" title="map：关联容器"></a>map：关联容器</h2><p>知识点： <a href="https://blog.csdn.net/sevenjoin/article/details/81943864?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170012272716800225546285%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170012272716800225546285&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-81943864-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=map&spm=1018.2226.3001.4187">csdn</a>     <a href="https://oi-wiki.org/lang/csl/associative-container/#map">oi-wiki</a>    </p><h3 id="queue-队列"><a href="#queue-队列" class="headerlink" title="queue: 队列"></a>queue: 队列</h3><p>知识点：<a href="https://blog.csdn.net/fuhanghang/article/details/125087433?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170027848916800182192819%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170027848916800182192819&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125087433-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=queue&spm=1018.2226.3001.4187">csdn</a>   </p>]]></content>
+    <content type="html"><![CDATA[<h1 id="stl容器"><a href="#stl容器" class="headerlink" title="stl容器"></a>stl容器</h1><h2 id="map：关联容器"><a href="#map：关联容器" class="headerlink" title="map：关联容器"></a>map：关联容器</h2><p>知识点： <a href="https://blog.csdn.net/sevenjoin/article/details/81943864?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170012272716800225546285%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170012272716800225546285&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-81943864-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=map&spm=1018.2226.3001.4187">csdn</a>     <a href="https://oi-wiki.org/lang/csl/associative-container/#map">oi-wiki</a>    </p><h3 id="queue-队列"><a href="#queue-队列" class="headerlink" title="queue: 队列"></a>queue: 队列</h3><p>知识点：<a href="https://blog.csdn.net/fuhanghang/article/details/125087433?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170027848916800182192819%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170027848916800182192819&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-125087433-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=queue&spm=1018.2226.3001.4187">csdn</a>  </p><p>注意点：</p><p>1、如果队列为空，则empty（）返回值为true。 </p><p>2、greater<type>为升序，less<type>为降序</p><h4 id="priority-queue-优先队列"><a href="#priority-queue-优先队列" class="headerlink" title="priority_queue:优先队列"></a>priority_queue:优先队列</h4><p>知识点：<a href="https://blog.csdn.net/weixin_36888577/article/details/79937886?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170057358316800184153123%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170057358316800184153123&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-79937886-null-null.142%5Ev96%5Epc_search_result_base5&utm_term=%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97&spm=1018.2226.3001.4187">csdn</a>  </p>]]></content>
     
     
       
